@@ -269,7 +269,7 @@ async def pokeMeme(ctx, browse="new"):
     await ctx.send(embed=em)
 
 
-@memePiece.error
+@pokeMeme.error
 async def info_error6(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("I'm sorry, but your request is improper. Try `" +
