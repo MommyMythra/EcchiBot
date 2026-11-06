@@ -197,8 +197,8 @@ async def info_error4(ctx, error):
 
 
 #for my memePiece meme grabber
-reddit = asyncpraw.Reddit(client_id="CoKE0zH_CBQov65PBJuIbQ",
-                          client_secret="OJX7UfSr3jY1ZbKGGI0LP8UpQPop4Q",
+reddit = asyncpraw.Reddit(client_id="X",
+                          client_secret="X",
                           user_agent="my user agent")
 
 
